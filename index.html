@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Khataan - Personal Portfolio</title>
+
+  <link rel="shortcut icon" href="./assets/images/Artboard 1.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/1.jpg" alt="Ahmed Khataan" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Ahmed Khataan">Ahmed Khataan</h1>
+          <p class="title">Full-Stack Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p><a href="mailto:ahmedkhataan@gmail.com"
+                class="contact-link">ahmedkhataan@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p><a href="tel:+201010372950" class="contact-link">+20 101 037 2950</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p><time datetime="2005-01-05">January 05, 2005</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Damahour, El Behira, Egypt</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item"><a href="https://www.linkedin.com/in/ahmedkhataan/" class="social-link"><ion-icon
+                name="logo-linkedin"></ion-icon></a></li>
+          <li class="social-item"><a href="https://github.com/ahmedkhataan111" class="social-link" target="_blank"
+              rel="noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
+          <li class="social-item"><a
+              href="https://www.instagram.com/_a7m3d_7a55an_?fbclid=IwY2xjawQiwelleHRuA2FlbQIxMABicmlkETFWTTlQSlJCQ2dXWGExbGhIc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHnN79Y7CJrtLTN396Y9mLf3zs3wdK80nBGlJYEEZzs5gpVz8bJoy5IS95HOU_aem_jWjhG3QoxBC73txtWLeFLQ"
+              class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>Results-driven Full-Stack Developer and Computer Science student with expertise in building
+            scalable web and mobile applications. Proficient in crafting robust backend architectures and
+            dynamic frontends using JavaScript, HTML5, and CSS3. Strong focus on algorithmic efficiency, AI
+            integration, and writing clean, maintainable code to solve complex technical challenges. </p>
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4">Ai & Data Science</h4>
+                <p style="color: #ffffff;">High-performance Data Science workflows and AI integration.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-dev.svg" alt="Web development icon"
+                  width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4">Web development</h4>
+                <p style="color: #ffffff;">High-quality development of sites at the professional level.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4">Mobile apps</h4>
+                <p style="color: #ffffff;">Professional development of applications for Android.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-design.svg" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4">Graphic Design</h4>
+                <p style="color: #ffffff;">The most modern and high-quality design made at a professional level.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4">Bachelor of Technology, Software Development</h4><span>Sep 2022 — Present</span>
+              <p class="timeline-text">Borg El Arab Technological University – General Grade: Very Good.</p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4">AI & Data Science - Data Scientist</h4><span>Nov 2025 — Present</span>
+              <p class="timeline-text">DEPI (MCIT) – Implemented machine learning models and analytics pipelines for
+                data-driven decision systems.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4">Backend Development Intern</h4><span>Aug 2024 — Sep 2025</span>
+              <p class="timeline-text">Borg El Arab Technological University – Developed backend APIs and integrated
+                services for course projects and campus applications.</p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend</h5><data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5><data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">.NET</h5><data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java / C/C++/C#</h5><data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Projects design</button></li>
+            <li class="filter-item"><button data-filter-btn>Applications</button></li>
+            <li class="filter-item"><button data-filter-btn>Web development</button></li>
+          </ul>
+          <div class="filter-select-box"><button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Projects design</button></li>
+              <li class="select-item"><button data-select-item>Applications</button></li>
+              <li class="select-item"><button data-select-item>Web development</button></li>
+            </ul>
+          </div>
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development"><a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img
+                    src="./assets/images/480573846_544994441935154_6985251203525231800_n.jpg" alt="Smart Parking"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Smart Parking</h3>
+                <p class="project-category">Web development</p>
+                <p class="project-desc">Automated garage management system with IoT integration and real-time space
+                  availability dashboard.</p>
+              </a></li>
+            <li class="project-item active" data-filter-item data-category="projects design"><a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img
+                    src="./assets/images/465451922_3967920073439919_2813815889608824086_n.jpg" alt="Smart City"
+                    loading="lazy">
+                </figure>
+                <h3 class="project-title">Smart City</h3>
+                <p class="project-category">Projects design</p>
+                <p class="project-desc">Scalable urban infrastructure model with real-time analytics for optimized
+                  resource management.</p>
+              </a></li>
+            <li class="project-item active" data-filter-item data-category="applications"><a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img
+                    src="./assets/images/68747470733a2f2f7261772e6769746875622e636f6d2f53616e7930372f446a616e676f2d4a6f622d506f7274616c2f6d61737465722f73637265656e73686f74732f73637265656e636170747572652d3132372d302d302d312d383030302d323032302d30352d30382d.png"
+                    alt="Job Site" loading="lazy">
+                </figure>
+                <h3 class="project-title">Job Site</h3>
+                <p class="project-category">Applications</p>
+                <p class="project-desc">Full-stack recruitment platform with dynamic job listings, advanced filtering,
+                  and application workflow.</p>
+              </a></li>
+            <li class="project-item active" data-filter-item data-category="applications"><a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img
+                    src="./assets/images/banner.png" alt="E-commerce Platform" loading="lazy">
+                </figure>
+                <h3 class="project-title">E-commerce Platform</h3>
+                <p class="project-category">Applications</p>
+                <p class="project-desc">High-performance e-commerce application with secure authentication, product
+                  management, and responsive UX.</p>
+              </a></li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure><iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe></figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper"><input type="text" name="fullname" class="form-input" placeholder="Full name"
+                required data-form-input><input type="email" name="email" class="form-input" placeholder="Email address"
+                required data-form-input></div><textarea name="message" class="form-input" placeholder="Your Message"
+              required data-form-input></textarea><button class="form-btn" type="submit" disabled
+              data-form-btn><ion-icon name="paper-plane"></ion-icon><span>Send Message</span></button>
+          </form>
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
